@@ -5,7 +5,7 @@
 SwitchLib btn = SwitchLib(BUTTON_PIN, 1000, true);
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(38400);
 
   delay(1000);
 
